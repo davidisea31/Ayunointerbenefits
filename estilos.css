@@ -3,6 +3,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Roboto Slab', serif;
 }
 
 body {
@@ -21,10 +22,11 @@ padding: 20px;
 }
 
 .logo {
-width: 100px;
+width: 86px;
 display: block;
 margin: 0 auto;
 transition: 0.3s ease;
+border-radius: 50%;
 }
 
 .logo:hover {
@@ -52,14 +54,17 @@ margin-top:40px;
 .section {
 margin-top:40px;
 border-radius:20px;
+margin: 1%;
+padding: 5%;
 box-shadow:0px8px16px rgba(0,0,0,.1);
 opacity:.9;
 transition:.3s ease;
 }
 
 .section:hover {
-transform:scale(1.05);
-}
+    box-shadow: 5px 5px 10px rgb(60, 60, 64);
+    }
+    
 
 .section-title {
 font-size:20px;
@@ -132,4 +137,9 @@ align-self:center;
 
     font-family: 'Roboto Slab', serif;
     font-size: smaller;
+}
+
+.cocus {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
 }
